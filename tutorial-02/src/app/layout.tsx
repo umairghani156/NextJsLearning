@@ -20,7 +20,7 @@ export default function RootLayout({
         <header className="text-3xl bg-blue-500 h-[50px] flex justify-center items-center">
           <h1>Header</h1>
         </header>
-        <main className="min-h-[calc(100vh-100px)] flex justify-center items-center ">
+        <main className="min-h-[calc(100vh-100px)] flex flex-col justify-center items-center ">
         {children}
         </main>
         <footer className="text-3xl bg-gray-500 h-[50px] flex justify-center items-center">
