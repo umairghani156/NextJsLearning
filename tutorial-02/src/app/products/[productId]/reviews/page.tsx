@@ -1,6 +1,13 @@
+
 export default function ProductReviews(
     {params }
     : { params: { productId: string } }
 ) {
-    return <div>Reviews About product {params.productId}</div>
+   
+    return (
+        <div>
+            <h1>Reviews About product {params.productId}</h1>
+        </div>
+    )
+
 }
