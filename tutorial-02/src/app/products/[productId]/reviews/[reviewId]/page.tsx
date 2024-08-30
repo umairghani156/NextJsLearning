@@ -1,3 +1,4 @@
+"use client"
 function getRandom(count: number){
     return Math.floor(Math.random() * count)
 }
