@@ -13,12 +13,12 @@ export default function DashboardLayout({
     return(
         <>
         <div>{children}</div>
-         <div className="flex space-x-4">
-            <div className="flex flex-col space-y-4">
-                <div className="flex justify-center items-center">{users}</div>
+         <div style={{display: 'flex'}}>
+            <div style={{display:"flex", flexDirection:"column"}}>
+                <div>{users}</div>
                 <div>{revenue}</div>
             </div>
-            <div>{notifications}</div>
+            <div style={{display:"flex", flex:"1"}}>{notifications}</div>
          </div>
         </>
     )
