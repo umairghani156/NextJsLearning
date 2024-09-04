@@ -6,14 +6,14 @@ import photo4 from "./photos/photo-4.jpg";
 import photo5 from "./photos/photo-5.jpg";
 
 export type WonderImage = {
-    id: String,
-    name: String,
+    id: string,
+    name: string,
     src: StaticImageData,
-    photographer: String,
-    location: String
+    photographer: string,
+    location: string
 };
 
-export const wonderImages: WonderImage[] = [
+const wonderImages: WonderImage[] = [
     {
         id: "1",
         name: "Wonders of the World",
@@ -50,3 +50,5 @@ export const wonderImages: WonderImage[] = [
         location: "Paris"
     }
 ];
+
+export default wonderImages;

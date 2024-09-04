@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function PhotoFeedLayout(props:{
+export default function Layout(props:{
     children: React.ReactNode;
     modal: React.ReactNode;
 }) {
