@@ -12,7 +12,7 @@ export default function PhotoModal({
   return (
     <Modal>
       <Image
-        alt="wonder image"
+        alt={photo.name}
         src={photo.src}
         className="w-full object-cover aspect-square"
       />
