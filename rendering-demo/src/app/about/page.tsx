@@ -4,7 +4,7 @@ const AboutPage = () => {
     console.log("About Page");
     
   return (
-    <div>About Page</div>
+    <div>About Page {new Date().toLocaleTimeString()}</div>
   )
 }
 
