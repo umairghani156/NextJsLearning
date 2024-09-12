@@ -3,8 +3,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { useTheme } from '@/components/theme-provider';
 
 export default function ClientRoutePage() {
+    const theme = useTheme();
     const settings = {
         dots: true,
         infinite: true,
@@ -13,6 +15,8 @@ export default function ClientRoutePage() {
         slidesToScroll: 1,
       };
       return (
+        <>
+        <h1 style={{color: theme.secondary}}>Client Route Page</h1>
         <div className="image-slider-container">
           <Slider {...settings}>
             <div>
@@ -29,5 +33,6 @@ export default function ClientRoutePage() {
             </div>
           </Slider>
         </div>
+        </>
       );
 }
