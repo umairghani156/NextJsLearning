@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar  navbar-expand-md fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#">Logo</a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#">Plan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#">own Plan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#">Contact</a>
+                </li>
+                
+              </ul>
+             
+            </div>
+          </div>
+          <a href="#" class="navbar-brand"><i class="fa-solid fa-magnifying-glass text-info fs-6"></i></a>
+          <a href="#" class="login-btn">Login/Register</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    <!-- navbar end -->
+     <!-- Hero section Start -->
+      <!-- <section class=" py-5">
+        <div class="container-fluid hero-section">
+          <h1 class="">Welcome to our company</h1>
+
+        </div>
+      </section> -->
+      <!-- <header class="p-4 bg-light rounded-3" style="margin-top: 100px;">
+        <div class="container-fluid">
+          <h1 class="display-5 fw-bold">Welcome to our company</h1>
+          <p class="col-md-6 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Hic velit consectetur dolorem et nihil perferendis molestias
+              numquam quo quaerat obcaecati. Optio quidem laudantium ducimus
+               nobis dicta tempore, vel recusandae blanditiis?</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <div class="col-md-3 text-bg-dark px-2 d-flex align-items-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="form-control ms-2" type="text">
+            </div>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>
+        </div>
+      </header> -->
+      <section class="home">
+        <div class="container-fluid">
+          <div class="row d-flex align-items-center h-100 position-relative">
+            <div class="col-md-6 panda">
+              <h1 class="ms-3 me-3">Welcome to our company</h1>
+              <p class="ms-3 me-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Hic velit consectetur dolorem et nihil perferendis molestias
+                 numquam quo quaerat obcaecati. Optio quidem laudantium ducimus
+                  nobis dicta tempore, vel recusandae blanditiis?</p>
+              <div class="ms-3 d-flex gap-2">
+                <div class="d-flex align-items-center text-bg-light rounded-1 px-2 w-50">
+                  <i class="fa-solid fa-magnifying-glass text-bg-info p-1 text-white rounded-5 d-flex justify-content-center align-content-center"></i>
+                  <input class="form-control text-bg-light border-0 ms-2 w-100 no-outline" type="text" placeholder="Search">
+                </div>
+                <button class="btn btn-primary">Search</button>
+              </div>
+            </div>
+            <div class="col-md-6 imageWidth">
+              <img class="img-fluid col-md-12 col-lg-12 col-sm-12" src="./assets/panda.jpg" alt="">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12 col-lg-3 mb-3 col-md-3 col-sm-4">
+              <div class="card" style="width: 100%;">
+                <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 col-md-3 col-sm-4">
+              <div class="card" style="width: 100%;">
+                <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 col-md-3 col-sm-4">
+              <div class="card" style="width: 100%;">
+                <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 col-md-3 col-sm-4">
+              <div class="card" style="width: 100%;">
+                <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div id="carouselExample" class="carousel carousel-dark slide d-none d-sm-block">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <div class="cards-wrapper">
+                  <div class="card" >
+                    <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 1</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 2</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 3</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="cards-wrapper">
+                    <div class="card" >
+                      <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="carousel-item">
+                 <div class="cards-wrapper">
+
+                 </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div id="carouselExampleControlsSmallScreen" class="carousel carousel-dark d-sm-none slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card" style="width: 100%;">
+                    <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card" style="width: 100%;">
+  <img class="img-fluid" src="./assets/panda.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card" style="width: 100%;">
+  <img src="./assets/panda.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- Hero section end -->
+      
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</body>
+</html>
